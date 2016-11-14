@@ -26,7 +26,7 @@
 </head>
 <body>
   <ul class="menu">
-    <li><a href="#!/view1">view1</a></li>
+    <li><a href="#!/home">home</a></li>
     <li><a href="#!/view2">view2</a></li>
   </ul>
 
@@ -34,9 +34,221 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="logo">
+            <a href="index1.html">
+              <img src="src/images/resources/logo.png" alt="Awesome Image" />
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8">
+          <div class="header-right-info pull-right sm-pull-none clearfix">
+            <div class="single-header-info pb-sm-20">
+              <div class="icon-box">
+                <div class="inner-box">
+                  <i class="flaticon-interface-2"></i>
+                </div>
+              </div>
+              <div class="content">
+                <h3>EMAIL</h3>
+                <p>contact@belfastcares.com</p>
+              </div>
+            </div>
+            <div class="single-header-info">
+              <div class="icon-box">
+                <div class="inner-box">
+                  <i class="flaticon-telephone"></i>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Call Now</h3>
+                <p><b>(732) 803-010-03</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <nav class="mainmenu-area stricky">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-3 col-md-12">
+          <div class="donate-btn clearfix">
+            <!-- Modal: donate now Starts -->
+            <a class="thm-btn pull-left" data-toggle="modal" href="#modal-donate-now">Donate Now</a>
+
+            <div class="nav-footer pull-right">
+              <button><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="modal fade" id="modal-donate-now" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog style-one" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Make a Donation</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="donation-form-outer">
+                      <form action="contact.html" method="post">
+                        <!--Form Portlet-->
+                        <div class="form-portlet">
+                          <h3>Donation Amount</h3>
+                          <div class="row clearfix">
+                            <div class="form-group col-xs-12 clearfix">
+                              <div class="radio-select">
+                                <input type="radio" id="amount-1" name="sel-amount">
+                                <label for="amount-1">$10</label>
+                              </div>
+                              <div class="radio-select">
+                                <input type="radio" checked="" id="amount-2" name="sel-amount">
+                                <label for="amount-2">$25</label>
+                              </div>
+                              <div class="radio-select">
+                                <input type="radio" id="amount-3" name="sel-amount">
+                                <label for="amount-3">$50</label>
+                              </div>
+                              <div class="radio-select">
+                                <input type="radio" id="amount-4" name="sel-amount">
+                                <label for="amount-4">$100</label>
+                              </div>
+                              <div class="radio-select">
+                                <input type="radio" id="amount-5" name="sel-amount">
+                                <label for="amount-5">$150</label>
+                              </div>
+                              <div class="radio-select">
+                                <input type="radio" id="amount-6" name="sel-amount">
+                                <label for="amount-6">$200</label>
+                              </div>
+                              <div class="radio-select">
+                                OR
+                              </div>
+                            </div>
+                            <div class="form-group  col-xs-12 padd-top-20">
+                              <input type="text" placeholder="Other Amount" value="" name="other-amount">
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <!--Form Portlet-->
+                        <div class="form-portlet">
+                          <h3>Billing Information</h3>
+                          <div class="row clearfix">
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Card Number <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="Card Number" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Security Code (CVC) <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="Security Code" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Name <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="First Name" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Email <span class="required">*</span></div>
+                              <input type="email" required="" placeholder="Email" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Phone <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="Phone" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Address <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="Address 1" value="" name="name">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">City <span class="required">*</span></div>
+                              <select>
+                                <option>City</option>
+                                <option>City Name</option>
+                                <option>City Other</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                              <div class="field-label">Zip / Postal Code <span class="required">*</span></div>
+                              <input type="text" required="" placeholder="Zip Code" value="" name="name">
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                              <button class="thm-btn mt-30 mb-30" type="submit">Donate Now</button>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <!--Form Portlet-->
+                        <div class="form-portlet">
+                          <h3>Online Payment Information</h3>
+                          <div class="payment-option-logo"><img alt="" src="images/resources/payment-logos.png" class="img-responsive"></div>
+                          <br>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal: donate now Ends -->
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+          <div class="navigation">
+            <div class="nav-header">
+              <ul>
+                <li class="dropdown">
+                  <a href="#">Home</a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#">Charities</a>
+                  <ul class="submenu">
+                    <li><a href="causes-list.html">Charities List</a></li>
+                    <li><a href="causes-single.html">Single Charity</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Volunteer</a>
+                  <ul class="submenu">
+                    <li><a href="volunteer-style-one.html">Volunteer Style One</a></li>
+                    <li><a href="volunteer-style-two.html">Volunteer Style Two</a></li>
+                    <li><a href="volunteer-profile.html">Volunteer Profile</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Contact</a>
+                  <ul class="submenu right-align">
+                    <li><a href="contact1.html">Conatact Style One</a></li>
+                    <li><a href="contact2.html">Conatact Style Two</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
   <div ng-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+
+  <section class="footer-bottom">
+    <div class="container text-center">
+      <p>Belfast Cares is currently under development. Please feel free to contact@belfastcares.co.uk.</p>
+    </div>
+  </section>
+
+  <!--Scroll to top-->
+  <div class="scroll-to-top"><span class="fa fa-arrow-up"></span></div>
+
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -44,11 +256,13 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
-  <script src="src/partials/view1/view1.js"></script>
+  <script src="src/partials/home/home_controller.js"></script>
   <script src="src/partials/view2/view2.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
+  <script src="src/services/apiservice.js"></script>
 
 
   <!-- main jQuery -->
