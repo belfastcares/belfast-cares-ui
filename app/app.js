@@ -6,6 +6,7 @@ angular
         'ngRoute',
         'myApp.home',
         'myApp.help',
+        'myApp.organisations',
         'myApp.view2',
         'myApp.version',
         'myApp.apiservice'
