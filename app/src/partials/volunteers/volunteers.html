@@ -1,0 +1,57 @@
+<section class="sec-padding meet-Volunteer pb_30">
+    <div class="container">
+        <div class="row">
+
+            <!-- no organisations to display -->
+            <div ng-if="!volunteers" style="text-align:center"><h4>No Volunteers to Display</h4></div>
+
+            <div ng-if="volunteers" class="our-volenteer" >
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-30" ng-repeat="volunteer in volunteers">
+                    <div class="single-volenteer pb-sm-30">
+                        <div class="volenteer-image-holder">
+                            <img src="{{ volunteer.image }}" alt="">
+                            <div class="volenteer-overlay">
+                                <div class="social-links">
+                                    <a href="{{ volunteer.facebook_link }}" ng-if="volunteer.facebook_link"><i class="fa fa-facebook mysocial_style"></i></a>
+                                    <a href="{{ volunteer.twitter_link }}" ng-if="volunteer.twitter_link"><i class="fa fa-twitter mysocial_style"></i></a>
+                                 </div>
+                                <div class="volenteer-minus-icon">
+                                    <img src="src/images/team/volenteer-minus-icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="volenteer-plus-icon">
+                                <img src="src/images/team/volenteer-plus-icon-golden.png" alt="">
+                            </div>
+                        </div>
+                        <a href="{% url 'volunteer_single' volunteer_id=volunteer.id %}"> <div class="volenteer-name text-center">
+                            <h5>{{ volunteer.first_name }} {{volunteer.surname}}</h5>
+                            <h6>{{ volunteer.occupation }}</h6>
+                            <p>{{ volunteer.about_me }}</p>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="overlay-white sec-padding parallax-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 promote-project text-center">
+                <h3>Save Children From Hunger</h3>
+                <div class="sec-title colored text-center">
+                        <span class="decor">
+							<span class="inner"></span>
+                        </span>
+                </div>
+                <h2>Became a part of the world lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quaerat atque, dolore. Amido ipsum
+                    dolor sit amet, consectetur adipisicing elit. Numquam quaerat atque, dolore.Lorem ipsum dolor sit
+                    amet, consectetur.</p>
+                <a href="#" class="thm-btn">Volunteer Now</a>
+                <a href="#" class="thm-btn inverse">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>

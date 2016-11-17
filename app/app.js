@@ -7,6 +7,7 @@ angular
         'myApp.home',
         'myApp.help',
         'myApp.organisations',
+        'myApp.volunteers',
         'myApp.view2',
         'myApp.version',
         'myApp.apiservice'
