@@ -25,11 +25,6 @@
 
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#!/home">home</a></li>
-    <li><a href="#!/view2">view2</a></li>
-  </ul>
-
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -58,17 +53,7 @@
                 <p>contact@belfastcares.com</p>
               </div>
             </div>
-            <div class="single-header-info">
-              <div class="icon-box">
-                <div class="inner-box">
-                  <i class="flaticon-telephone"></i>
-                </div>
-              </div>
-              <div class="content">
-                <h3>Call Now</h3>
-                <p><b>(732) 803-010-03</b></p>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -205,29 +190,11 @@
                 <li class="dropdown">
                   <a href="#">Home</a>
                 </li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                  <a href="#">Charities</a>
-                  <ul class="submenu">
-                    <li><a href="causes-list.html">Charities List</a></li>
-                    <li><a href="causes-single.html">Single Charity</a></li>
-                  </ul>
+                <li><a href="#!/help">Help</a></li>
+                <li><a href="#!/organisations">Organisations</a>
                 </li>
-                <li class="dropdown">
-                  <a href="#">Volunteer</a>
-                  <ul class="submenu">
-                    <li><a href="volunteer-style-one.html">Volunteer Style One</a></li>
-                    <li><a href="volunteer-style-two.html">Volunteer Style Two</a></li>
-                    <li><a href="volunteer-profile.html">Volunteer Profile</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#">Contact</a>
-                  <ul class="submenu right-align">
-                    <li><a href="contact1.html">Conatact Style One</a></li>
-                    <li><a href="contact2.html">Conatact Style Two</a></li>
-                  </ul>
-                </li>
+                <li><a href="#!/volunteers">Volunteer</a>
+                <li><a href="#!/contact">Contact</a>
               </ul>
             </div>
           </div>
@@ -257,6 +224,12 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="src/partials/home/home_controller.js"></script>
+  <script src="src/partials/help/help_controller.js"></script>
+  <script src="src/partials/volunteers/volunteers_controller.js"></script>
+  <script src="src/partials/volunteer/volunteer_controller.js"></script>
+  <script src="src/partials/organisations/organisations_controller.js"></script>
+  <script src="src/partials/organisation/organisation_controller.js"></script>
+  <script src="src/partials/contact/contact_controller.js"></script>
   <script src="src/partials/view2/view2.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
