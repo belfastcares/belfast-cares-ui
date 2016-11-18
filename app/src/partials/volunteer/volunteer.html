@@ -1,0 +1,22 @@
+<section class="sec-padding volunteer-profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{ volunteer.image }}" alt="">
+            </div>
+            <div class="col-md-8 single-team-member">
+                <h3>{{ volunteer.first_name }} {{ volunteer.surname}}</h3>
+                <span>{{ volunteer.occupation }}</span>
+                <p>{{ volunteer.about_me }}</p>
+                <ul class="infos">
+                    <li><span>Experience</span> <span>{{ volunteer.experience }}</span></li>
+                    <li><span>Training</span> <span>&nbsp;&nbsp;&nbsp;&nbsp;{{ volunteer.training }}</span></li>
+                </ul>
+                <ul class="social">
+                    <li ng-if="volunteer.facebook_link"><a class="bdrs-0" href="{{ volunteer.facebook_link }}"><i class="fa fa-facebook"></i></a></li>
+                    <li ng-if="volunteer.twitter_link"><a class="bdrs-0" href="{{ volunteer.twitter_link }}"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
