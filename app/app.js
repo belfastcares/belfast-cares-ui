@@ -8,6 +8,7 @@ angular
         'myApp.contact',
         'myApp.help',
         'myApp.organisations',
+        'myApp.organisation',
         'myApp.volunteers',
         'myApp.volunteer',
         'myApp.view2',
