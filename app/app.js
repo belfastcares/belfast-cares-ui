@@ -5,6 +5,7 @@ angular
     .module('myApp', [
         'ngRoute',
         'myApp.home',
+        'myApp.contact',
         'myApp.help',
         'myApp.organisations',
         'myApp.volunteers',
