@@ -10,9 +10,9 @@ angular
         'myApp.help',
         'myApp.organisations',
         'myApp.organisation',
+        'myApp.registration',
         'myApp.volunteers',
         'myApp.volunteer',
-        'myApp.view2',
         'myApp.version',
         'myApp.apiservice'
     ])
