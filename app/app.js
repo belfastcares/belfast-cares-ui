@@ -4,6 +4,7 @@
 angular
     .module('myApp', [
         'ngRoute',
+        'myApp.login',
         'myApp.home',
         'myApp.contact',
         'myApp.help',
