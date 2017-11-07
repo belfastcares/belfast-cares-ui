@@ -5682,18 +5682,9 @@ a:hover,a:focus,a:visited{
 }
 */
 
-.login-form{
-    max-width: 300px;
-    margin: auto;
-}
-
 .login-form-error{
-    max-width: 300px;
-    margin: auto;
-    margin-top: 30px;
     color: red;
     font-size: 16px;
-    text-align: center;
 }
 
 
